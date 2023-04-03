@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(23, 80, 23);
+    display: flex;
+    flex-direction: column;
+}
+.header-one {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 48px;
+    color: #F9F8FA;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(11, 245, 11);
+}
+.plant-types {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+.header-two {
+    display: flex;
+    padding: 50px;
+    gap: 10px;
+}
+button {
+    background-color: chartreuse;
+    padding: 3px 15px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+.plants {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-two {
+    background-color: rgb(248, 248, 248);
+}
+.text {
+    width: 300px;
+    font-size: 15px;
+    font-style: oblique;
+    color: rgb(6, 56, 6);
+}
+.sub-heading {
+    text-align: center;
+    margin: 6px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(31, 82, 31);
+}
+img {
+    border: 4px solid hsl(49, 39%, 19%);
+    border-radius: 20px;
+}
+.section-three {
+    background-color: rgb(185, 181, 181);
+    padding: 5px; 
+}
+.name {
+    background-color: rgb(105, 63, 63);
+    width: max-content;
+    padding: 10px;
+    border: 3px solid rgb(39, 37, 37);
+    border-radius: 47%;
+    font-weight: bold;
+}
+.comment.section {
+    display: flex;
+    gap: 35px;
+    padding:  5px 8px;
+}
+h3 {
+    text-align: center;
+}
+.section-four {
+    background-color:  rgb(248, 248, 248);
+    padding: 35px 50px;
+}
+.last-section {
+    display: flex;
+    background-color: rgb(15, 182, 15);
+    justify-content: space-around;
+}
+.button-four {
+    height: max-content;
+    margin-top: 50px;
+    background-color: rgb(15, 182, 15);
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    font-weight: bold;
+}
+.footer {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 5px;
+}
